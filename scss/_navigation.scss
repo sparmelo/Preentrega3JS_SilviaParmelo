@@ -1,0 +1,42 @@
+/* Navigation */
+
+@mixin anclas {
+  text-decoration: none;
+  color: $color-blanco;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.navButton {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  outline: 1px solid #cbb26a;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+a {
+  @include anclas;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  &:hover {
+    color: $color-arena;
+  }
+}
+
+.linkNegro {
+  color: $color-negro;
+}

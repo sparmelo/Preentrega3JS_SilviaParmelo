@@ -1,0 +1,54 @@
+/* Contacto */
+
+section .mapa {
+    width: 100%;
+}
+
+/*Formulario*/
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: black;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $color-arena;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    margin: auto;
+
+    &:hover {
+        color: black;
+        width: 100px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        margin: auto;
+        transition: none;
+    }
+}

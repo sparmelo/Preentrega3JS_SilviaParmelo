@@ -1,0 +1,26 @@
+/* Servicios */
+
+#carouselExampleCaptions,
+h3,
+p {
+    color: $color-negro;
+    font-size: 1.5rem;
+}
+
+.servicio {
+    font-size: 1rem;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cartel {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+}
