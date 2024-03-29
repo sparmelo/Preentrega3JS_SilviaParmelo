@@ -52,3 +52,14 @@ const products = [
   addToCart(1); // Agregar Sofa al carrito
   addToCart(2); // Agregar Mesa de café al carrito
   displayCart();
+
+  // Filtrar productos basados en el precio
+function filterProductsByPrice(price) {
+  const filteredProducts = products.filter(product => product.price <= price);
+  console.log(`Productos por debajo o igual a $${price}:`);
+  filteredProducts.forEach(product => {
+    console.log(`${product.id}. ${product.name} - $${product.price}`);
+  });
+}
+
+filterProductsByPrice(600000); // Ejemplo de uso del filtro por precio
